@@ -1,4 +1,4 @@
-defmodule SimpleCrud.Url do
+defmodule GBitly.UrlSchema do
   use Ecto.Schema
   import Ecto.Changeset
 
@@ -6,7 +6,7 @@ defmodule SimpleCrud.Url do
     field :url_name, :string
     field :redirect_url_name, :string
 
-    timestamps(type: :utc_datetime)
+    # timestamps(type: :utc_datetime)
   end
 
   @doc false
