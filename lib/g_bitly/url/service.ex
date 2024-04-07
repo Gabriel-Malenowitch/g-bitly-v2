@@ -1,5 +1,3 @@
-alias GBitly.Repo
-
 defmodule GBitly.UrlApi.Service do
   alias GBitly.Url.Repo
 
